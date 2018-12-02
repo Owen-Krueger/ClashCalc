@@ -197,9 +197,27 @@
 					"laboratoryLevelRequired":9,
 					"researchTime":240,
 					"img":"archer/archerLvl8.png"
-				},
+				}
 			]
-		}
+		},
+		"giant":{
+			"name":"Giant",
+			"description":"These big guys may seem calm, but show them a turret or cannon and you'll see their fury unleashed! Slow yet durable, these warriors are best used to soak up hits.",
+			"prefferedTarget":"defenses",
+			"attackType":"melee",
+			"attackTargetType":"ground",
+			"housingSpace":5,
+			"movementSpeed":12,
+			"attackSpeed":2,
+			"barracksLevelRequired":3,
+			"range":1,
+			"trainingTimePerBarracks":[
+				1:120,
+				2:60,
+				3:40,
+				4,30
+			],
+			"levels":[]
 	]
 	
 }
