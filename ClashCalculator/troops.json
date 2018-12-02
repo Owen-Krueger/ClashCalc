@@ -15,7 +15,7 @@
 				1:20,
 				2:10,
 				3:6,
-				4,5
+				4:5
 			],
 			"levels":[
 				1:{
@@ -23,7 +23,6 @@
 					"dpa":8,
 					"hitpoints":45,
 					"trainingCost":25,
-					"trainingTime":20,
 					"researchCost":-1,
 					"laboratoryLevelRequired":-1,
 					"researchTime":-1,
@@ -33,6 +32,7 @@
 					"dps":11,
 					"dpa":11,
 					"hitpoints":54,
+					"trainingCost":40,
 					"researchCost":50000,
 					"laboratoryLevelRequired":1,
 					"researchTime":6,
@@ -115,7 +115,7 @@
 				1:24,
 				2:12,
 				3:8,
-				4,6
+				4:6
 			],
 			"levels":[
 				1:{
@@ -215,9 +215,101 @@
 				1:120,
 				2:60,
 				3:40,
-				4,30
+				4:30
 			],
-			"levels":[]
+			"levels":[
+				1:{
+					"dps":11,
+					"dpa":22,
+					"hitpoints":300,
+					"trainingCost":250,
+					"researchCost":-1,
+					"laboratoryLevelRequired":-1,
+					"researchTime":-1,
+					"img":"giant/giantLvl1.png"
+				},
+				2:{
+					"dps":14,
+					"dpa":28,
+					"hitpoints":360,
+					"trainingCost":750,
+					"researchCost":100000,
+					"laboratoryLevelRequired":2,
+					"researchTime":12,
+					"img":"giant/giantLvl2.png"
+				},
+				3:{
+					"dps":19,
+					"dpa":38,
+					"hitpoints":430,
+					"trainingCost":1250,
+					"researchCost":250000,
+					"laboratoryLevelRequired":4,
+					"researchTime":36,
+					"img":"giant/giantLvl3.png"
+				},
+				4:{
+					"dps":24,
+					"dpa":48,
+					"hitpoints":520,
+					"trainingCost":1750,
+					"researchCost":750000,
+					"laboratoryLevelRequired":5,
+					"researchTime":48,
+					"img":"giant/giantLvl4.png"
+				},
+				5:{
+					"dps":31,
+					"dpa":62,
+					"hitpoints":720,
+					"trainingCost":2250,
+					"researchCost":2250000,
+					"laboratoryLevelRequired":6,
+					"researchTime":42,
+					"img":"giant/giantLvl5.png"
+				},
+				6:{
+					"dps":43,
+					"dpa":86,
+					"hitpoints":940,
+					"trainingCost":3000,
+					"researchCost":5000000,
+					"laboratoryLevelRequired":7,
+					"researchTime":156,
+					"img":"giant/giantLvl6.png"
+				},
+				7:{
+					"dps":50,
+					"dpa":100,
+					"hitpoints":1280,
+					"trainingCost":3500,
+					"researchCost":6000000,
+					"laboratoryLevelRequired":8,
+					"researchTime":192,
+					"img":"giant/giantLvl7.png"
+				},
+				8:{
+					"dps":57,
+					"dpa":114,
+					"hitpoints":1480,
+					"trainingCost":4000,
+					"researchCost":9500000,
+					"laboratoryLevelRequired":9,
+					"researchTime":276,
+					"img":"giant/giantLvl8.png"
+				},
+				9:{
+					"dps":64,
+					"dpa":128,
+					"hitpoints":1660,
+					"trainingCost":4500,
+					"researchCost":12000000,
+					"laboratoryLevelRequired":10,
+					"researchTime":336,
+					"img":"giant/giantLvl9.png"
+				}
+			]
+		}
 	]
 	
 }
