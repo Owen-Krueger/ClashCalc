@@ -1,4 +1,4 @@
-package kingredeagle.clashcalc;
+package kingredeagle.clashcalculator;
 
 import org.junit.Test;
 
