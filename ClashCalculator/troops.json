@@ -331,6 +331,7 @@
 				1:{
 					"dps":11,
 					"dpa":11,
+					"dpsResource":22,
 					"hitpoints":25,
 					"trainingCost":25,
 					"researchCost":-1,
@@ -341,6 +342,7 @@
 				2:{
 					"dps":14,
 					"dpa":14,
+					"dpsResource":28,
 					"hitpoints":30,
 					"trainingCost":40,
 					"researchCost":50000,
@@ -351,6 +353,7 @@
 				3:{
 					"dps":19,
 					"dpa":19,
+					"dpsResource":38,
 					"hitpoints":36,
 					"trainingCost":60,
 					"researchCost":250000,
@@ -361,6 +364,7 @@
 				4:{
 					"dps":24,
 					"dpa":24,
+					"dpsResource":48,
 					"hitpoints":43,
 					"trainingCost":80,
 					"researchCost":750000,
@@ -371,6 +375,7 @@
 				5:{
 					"dps":32,
 					"dpa":32,
+					"dpsResource":64,
 					"hitpoints":52,
 					"trainingCost":100,
 					"researchCost":2250000,
@@ -381,6 +386,7 @@
 				6:{
 					"dps":42,
 					"dpa":42,
+					"dpsResource":84,
 					"hitpoints":68,
 					"trainingCost":150,
 					"researchCost":4500000,
@@ -391,12 +397,113 @@
 				7:{
 					"dps":52,
 					"dpa":52,
+					"dpsResource":104,
 					"hitpoints":74,
 					"trainingCost":200,
 					"researchCost":6750000,
 					"laboratoryLevelRequired":8,
 					"researchTime":240,
 					"img":"goblin/goblinLvl7.png"
+				}
+			]
+		},
+		"wallBreaker":{
+			"name":"Wall Breaker",
+			"description":"Nothing warms a Wall Breaker's cold and undead heart like blowing up walls. A squad of them will make way for your ground units, and they will do it with a BANG!",
+			"prefferedTarget":"walls",
+			"attackType":"areaSplash",
+			"attackTargetType":"ground",
+			"housingSpace":2,
+			"movementSpeed":24,
+			"attackSpeed":1,
+			"barracksLevelRequired":5,
+			"range":1,
+			"trainingTimePerBarracks":[
+				1:60,
+				2:30,
+				3:20,
+				4:15
+			],
+			"levels":[
+				1:{
+					"dps":12,
+					"dpsWall":480,
+					"hitpoints":20,
+					"trainingCost":1000,
+					"researchCost":-1,
+					"laboratoryLevelRequired":-1,
+					"researchTime":-1,
+					"img":"wallBreaker/wallBreakerLvl1.png"
+				},
+				2:{
+					"dps":16,
+					"dpsWall":640,
+					"hitpoints":24,
+					"trainingCost":1250,
+					"researchCost":100000,
+					"laboratoryLevelRequired":2,
+					"researchTime":12,
+					"img":"wallBreaker/wallBreakerLvl2.png"
+				},
+				3:{
+					"dps":24,
+					"dpsWall":960,
+					"hitpoints":29,
+					"trainingCost":1500,
+					"researchCost":250000,
+					"laboratoryLevelRequired":4,
+					"researchTime":36,
+					"img":"wallBreaker/wallBreakerLvl3.png"
+				},
+				4:{
+					"dps":32,
+					"dpsWall":1280,
+					"hitpoints":35,
+					"trainingCost":1750,
+					"researchCost":750000,
+					"laboratoryLevelRequired":5,
+					"researchTime":48,
+					"img":"wallBreaker/wallBreakerLvl4.png"
+				},
+				5:{
+					"dps":46,
+					"dpsWall":1840,
+					"hitpoints":42,
+					"trainingCost":2000,
+					"researchCost":2000000,
+					"laboratoryLevelRequired":6,
+					"researchTime":84,
+					"img":"wallBreaker/wallBreakerLvl5.png"
+				},
+				6:{
+					"dps":60,
+					"dpsWall":2400,
+					"hitpoints":54,
+					"trainingCost":2250,
+					"researchCost":6000000,
+					"laboratoryLevelRequired":8,
+					"researchTime":156,
+					"img":"wallBreaker/wallBreakerLvl6.png"
+				},
+				7:{
+					"dps":78,
+					"dpsWall":3120,
+					"hitpoints":62,
+					"trainingCost":2500,
+					"researchCost":9000000,
+					"laboratoryLevelRequired":9,
+					"researchTime":192,
+					"img":"wallBreaker/wallBreakerLvl7.png"
+				},
+				8:{
+					"dps":100,
+					"dpsWall":4000,
+					"hitpoints":70,
+					"trainingCost":2750,
+					"researchCost":12000000,
+					"laboratoryLevelRequired":10,
+					"researchTime":336,
+					"img":"wallBreaker/wallBreakerLvl8.png"
 				}
 			]
 		}
